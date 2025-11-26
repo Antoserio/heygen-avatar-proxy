@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/get-access-token",
+      "destination": "/index.js"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/public/$1"
+    }
+  ]
+}
